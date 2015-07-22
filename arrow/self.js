@@ -1,7 +1,7 @@
 console.log("[----------Starwars Starts");
 var DarthVaderSays = function(){
   this.name = "Darth Vader";
-  self = this;
+  var self = this;
   this.start = function(){
     console.log(self.name + " says: ----------I'm Your father!----------" );
   }
@@ -9,7 +9,7 @@ var DarthVaderSays = function(){
 var vader = new DarthVaderSays();
 var action = function(){
   this.name = "Luke Skywalker";
-  self = this;
+  var self = this;
   setTimeout( vader.start, 1000 );
   setTimeout( function(){
     console.log( self.name+" says: ----------No~~~~~~~~~~~~~--");
