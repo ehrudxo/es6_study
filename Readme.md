@@ -3,4 +3,4 @@ This is ES6 study project.
 
 You can find es6 examples in this project.
 
-* [Arrow Function](./Readme.md)
+* [Arrow Function](./arrow/Readme.md)
